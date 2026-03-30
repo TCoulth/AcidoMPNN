@@ -18,6 +18,7 @@ Sequences were filtered by organism, selecting for acidophiles, and then for the
 **Testing Results**
 
 Note: Has not been experimentally tested yet. Please try!
+
 Generated sequences were folded with high confidence with AF2. Amino acid compositions are distinct from ProteinMPNN and HyperMPNN distributions. More analysis to follow
 
 **Use**
