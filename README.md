@@ -5,7 +5,7 @@ Trained using the [HyperMPNN](https://github.com/meilerlab/HyperMPNN) training s
 
 **Structure Selection**
 
-Sequences were filtered by organism, selecting for acidophiles, and then for the prescence of a secretion tag. After clustering at 50% sequence identity, AF2 structures were gathered and filtered by quality (>70% plddt).
+Sequences were filtered by organism, selecting for acidophiles, and then for the prescence of a secretion tag. Since organisms can maintain a pH inside the cell different than that outside, proteins with secretion tags from acidophiles were mostly likely to be present in low pH environments. After clustering at 50% sequence identity, AF2 structures were gathered and filtered by quality (>70% plddt).
 
 **Training**
 
