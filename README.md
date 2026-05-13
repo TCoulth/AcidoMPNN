@@ -9,7 +9,7 @@ Sequences were filtered by organism, selecting for acidophiles, and then for the
 
 **Training**
 
-21129 total sequence/structures used. 80-10-10 training-validation-test split
+19977 total sequence/structures used. 80-10-10 training-validation-test split (5/13/2026 correcting error on number of sequences/structures used)
 
 <img width="563" height="455" alt="image" src="https://github.com/user-attachments/assets/888d95e5-e868-4acd-b621-25b1d6e78ae1" />
 
