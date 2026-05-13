@@ -1,0 +1,226 @@
+# ARGUMENTS FOR TRAINING
+# path_for_training_data: ../pdb_pt
+# path_for_data_files: ../data_files
+# path_for_outputs: ../train_output
+# previous_checkpoint: 
+# num_epochs: 300
+# save_model_every_n_epochs: 10
+# reload_data_every_n_epochs: 2
+# num_examples_per_epoch: 5000
+# batch_size: 3000
+# max_protein_length: 5000
+# hidden_dim: 128
+# num_encoder_layers: 3
+# num_decoder_layers: 3
+# num_neighbors: 48
+# dropout: 0.1
+# backbone_noise: 0.2
+# rescut: 3.5
+# debug: False
+# gradient_norm: -1.0
+# mixed_precision: True
+# rerun: True
+# suffix: 
+Epoch	Train	Validation
+epoch: 1, step: 549, time: 157.4, train: 15.410, valid: 11.176, train_acc: 0.163, valid_acc: 0.260
+epoch: 2, step: 1098, time: 157.5, train: 11.101, valid: 9.359, train_acc: 0.262, valid_acc: 0.309
+epoch: 3, step: 1648, time: 164.9, train: 9.820, valid: 8.385, train_acc: 0.294, valid_acc: 0.338
+epoch: 4, step: 2198, time: 157.7, train: 9.027, valid: 7.831, train_acc: 0.318, valid_acc: 0.360
+epoch: 5, step: 2748, time: 165.2, train: 8.469, valid: 7.278, train_acc: 0.337, valid_acc: 0.385
+epoch: 6, step: 3298, time: 157.9, train: 8.063, valid: 6.983, train_acc: 0.351, valid_acc: 0.395
+epoch: 7, step: 3847, time: 162.9, train: 7.757, valid: 6.819, train_acc: 0.363, valid_acc: 0.401
+epoch: 8, step: 4396, time: 157.9, train: 7.498, valid: 6.531, train_acc: 0.373, valid_acc: 0.414
+epoch: 9, step: 4946, time: 164.9, train: 7.256, valid: 6.433, train_acc: 0.383, valid_acc: 0.419
+epoch: 10, step: 5496, time: 157.8, train: 7.033, valid: 6.214, train_acc: 0.393, valid_acc: 0.431
+epoch: 11, step: 6045, time: 162.8, train: 6.889, valid: 6.134, train_acc: 0.399, valid_acc: 0.432
+epoch: 12, step: 6594, time: 157.7, train: 6.746, valid: 5.930, train_acc: 0.405, valid_acc: 0.444
+epoch: 13, step: 7142, time: 164.4, train: 6.651, valid: 5.861, train_acc: 0.409, valid_acc: 0.446
+epoch: 14, step: 7690, time: 157.2, train: 6.537, valid: 5.783, train_acc: 0.414, valid_acc: 0.452
+epoch: 15, step: 8238, time: 164.4, train: 6.449, valid: 5.741, train_acc: 0.419, valid_acc: 0.452
+epoch: 16, step: 8786, time: 157.0, train: 6.377, valid: 5.698, train_acc: 0.422, valid_acc: 0.457
+epoch: 17, step: 9333, time: 162.0, train: 6.343, valid: 5.663, train_acc: 0.423, valid_acc: 0.456
+epoch: 18, step: 9880, time: 156.9, train: 6.265, valid: 5.625, train_acc: 0.428, valid_acc: 0.459
+epoch: 19, step: 10428, time: 163.6, train: 6.219, valid: 5.548, train_acc: 0.430, valid_acc: 0.464
+epoch: 20, step: 10976, time: 157.0, train: 6.154, valid: 5.533, train_acc: 0.433, valid_acc: 0.464
+epoch: 21, step: 11524, time: 164.4, train: 6.119, valid: 5.459, train_acc: 0.434, valid_acc: 0.469
+epoch: 22, step: 12072, time: 157.0, train: 6.072, valid: 5.448, train_acc: 0.437, valid_acc: 0.468
+epoch: 23, step: 12620, time: 162.1, train: 6.040, valid: 5.432, train_acc: 0.438, valid_acc: 0.469
+epoch: 24, step: 13168, time: 157.0, train: 5.989, valid: 5.341, train_acc: 0.441, valid_acc: 0.475
+epoch: 25, step: 13715, time: 164.0, train: 6.066, valid: 5.385, train_acc: 0.437, valid_acc: 0.473
+epoch: 26, step: 14262, time: 156.8, train: 6.006, valid: 5.334, train_acc: 0.440, valid_acc: 0.475
+epoch: 27, step: 14809, time: 164.4, train: 5.974, valid: 5.368, train_acc: 0.441, valid_acc: 0.473
+epoch: 28, step: 15356, time: 157.2, train: 5.921, valid: 5.317, train_acc: 0.444, valid_acc: 0.476
+epoch: 29, step: 15903, time: 162.2, train: 5.913, valid: 5.255, train_acc: 0.445, valid_acc: 0.480
+epoch: 30, step: 16450, time: 157.2, train: 5.876, valid: 5.252, train_acc: 0.447, valid_acc: 0.481
+epoch: 31, step: 16998, time: 162.0, train: 5.867, valid: 5.272, train_acc: 0.447, valid_acc: 0.480
+epoch: 32, step: 17546, time: 156.9, train: 5.831, valid: 5.267, train_acc: 0.449, valid_acc: 0.480
+epoch: 33, step: 18093, time: 164.0, train: 5.811, valid: 5.214, train_acc: 0.450, valid_acc: 0.484
+epoch: 34, step: 18640, time: 157.1, train: 5.783, valid: 5.167, train_acc: 0.451, valid_acc: 0.484
+epoch: 35, step: 19187, time: 164.3, train: 5.765, valid: 5.179, train_acc: 0.452, valid_acc: 0.485
+epoch: 36, step: 19734, time: 157.1, train: 5.740, valid: 5.161, train_acc: 0.454, valid_acc: 0.487
+epoch: 37, step: 20280, time: 161.7, train: 5.790, valid: 5.139, train_acc: 0.451, valid_acc: 0.488
+epoch: 38, step: 20826, time: 156.7, train: 5.744, valid: 5.118, train_acc: 0.454, valid_acc: 0.488
+epoch: 39, step: 21371, time: 163.4, train: 5.730, valid: 5.132, train_acc: 0.454, valid_acc: 0.487
+epoch: 40, step: 21916, time: 156.6, train: 5.691, valid: 5.115, train_acc: 0.456, valid_acc: 0.487
+epoch: 41, step: 22461, time: 163.9, train: 5.687, valid: 5.105, train_acc: 0.456, valid_acc: 0.489
+epoch: 42, step: 23006, time: 156.6, train: 5.654, valid: 5.148, train_acc: 0.458, valid_acc: 0.487
+epoch: 43, step: 23551, time: 161.6, train: 5.652, valid: 5.114, train_acc: 0.459, valid_acc: 0.488
+epoch: 44, step: 24096, time: 156.6, train: 5.613, valid: 5.093, train_acc: 0.461, valid_acc: 0.489
+epoch: 45, step: 24641, time: 163.8, train: 5.627, valid: 5.054, train_acc: 0.460, valid_acc: 0.492
+epoch: 46, step: 25186, time: 156.6, train: 5.602, valid: 5.042, train_acc: 0.461, valid_acc: 0.492
+epoch: 47, step: 25731, time: 161.5, train: 5.596, valid: 5.031, train_acc: 0.462, valid_acc: 0.494
+epoch: 48, step: 26276, time: 156.6, train: 5.568, valid: 5.019, train_acc: 0.463, valid_acc: 0.495
+epoch: 49, step: 26825, time: 164.6, train: 5.610, valid: 5.024, train_acc: 0.460, valid_acc: 0.493
+epoch: 50, step: 27374, time: 157.4, train: 5.575, valid: 5.033, train_acc: 0.463, valid_acc: 0.494
+epoch: 51, step: 27923, time: 165.1, train: 5.564, valid: 4.997, train_acc: 0.463, valid_acc: 0.495
+epoch: 52, step: 28472, time: 157.5, train: 5.533, valid: 5.004, train_acc: 0.464, valid_acc: 0.495
+epoch: 53, step: 29020, time: 162.7, train: 5.537, valid: 4.956, train_acc: 0.464, valid_acc: 0.498
+epoch: 54, step: 29568, time: 157.5, train: 5.510, valid: 4.970, train_acc: 0.466, valid_acc: 0.495
+epoch: 55, step: 30117, time: 164.6, train: 5.511, valid: 4.988, train_acc: 0.466, valid_acc: 0.495
+epoch: 56, step: 30666, time: 157.5, train: 5.484, valid: 4.936, train_acc: 0.467, valid_acc: 0.499
+epoch: 57, step: 31214, time: 162.3, train: 5.488, valid: 4.971, train_acc: 0.467, valid_acc: 0.497
+epoch: 58, step: 31762, time: 157.3, train: 5.465, valid: 4.968, train_acc: 0.468, valid_acc: 0.496
+epoch: 59, step: 32310, time: 164.4, train: 5.466, valid: 4.974, train_acc: 0.469, valid_acc: 0.496
+epoch: 60, step: 32858, time: 157.3, train: 5.434, valid: 4.968, train_acc: 0.470, valid_acc: 0.497
+epoch: 61, step: 33402, time: 163.3, train: 5.505, valid: 4.906, train_acc: 0.467, valid_acc: 0.502
+epoch: 62, step: 33946, time: 156.2, train: 5.467, valid: 4.926, train_acc: 0.468, valid_acc: 0.499
+epoch: 63, step: 34490, time: 161.1, train: 5.472, valid: 4.952, train_acc: 0.468, valid_acc: 0.497
+epoch: 64, step: 35034, time: 156.1, train: 5.449, valid: 4.922, train_acc: 0.469, valid_acc: 0.499
+epoch: 65, step: 35577, time: 163.0, train: 5.444, valid: 4.936, train_acc: 0.470, valid_acc: 0.498
+epoch: 66, step: 36120, time: 156.1, train: 5.417, valid: 4.917, train_acc: 0.472, valid_acc: 0.499
+epoch: 67, step: 36663, time: 163.4, train: 5.416, valid: 4.917, train_acc: 0.471, valid_acc: 0.501
+epoch: 68, step: 37206, time: 156.1, train: 5.390, valid: 4.925, train_acc: 0.472, valid_acc: 0.498
+epoch: 69, step: 37749, time: 161.2, train: 5.401, valid: 4.885, train_acc: 0.472, valid_acc: 0.502
+epoch: 70, step: 38292, time: 156.1, train: 5.373, valid: 4.894, train_acc: 0.474, valid_acc: 0.502
+epoch: 71, step: 38835, time: 163.4, train: 5.379, valid: 4.909, train_acc: 0.473, valid_acc: 0.501
+epoch: 72, step: 39378, time: 156.0, train: 5.361, valid: 4.888, train_acc: 0.475, valid_acc: 0.503
+epoch: 73, step: 39924, time: 162.0, train: 5.407, valid: 4.893, train_acc: 0.472, valid_acc: 0.503
+epoch: 74, step: 40470, time: 156.8, train: 5.379, valid: 4.887, train_acc: 0.473, valid_acc: 0.502
+epoch: 75, step: 41016, time: 164.1, train: 5.364, valid: 4.854, train_acc: 0.474, valid_acc: 0.504
+epoch: 76, step: 41562, time: 156.8, train: 5.340, valid: 4.883, train_acc: 0.476, valid_acc: 0.500
+epoch: 77, step: 42108, time: 162.1, train: 5.354, valid: 4.857, train_acc: 0.475, valid_acc: 0.504
+epoch: 78, step: 42654, time: 156.9, train: 5.332, valid: 4.866, train_acc: 0.476, valid_acc: 0.503
+epoch: 79, step: 43200, time: 164.1, train: 5.330, valid: 4.881, train_acc: 0.475, valid_acc: 0.502
+epoch: 80, step: 43746, time: 156.8, train: 5.309, valid: 4.894, train_acc: 0.477, valid_acc: 0.502
+epoch: 81, step: 44293, time: 162.2, train: 5.297, valid: 4.830, train_acc: 0.478, valid_acc: 0.505
+epoch: 82, step: 44840, time: 157.0, train: 5.276, valid: 4.860, train_acc: 0.480, valid_acc: 0.504
+epoch: 83, step: 45386, time: 164.4, train: 5.289, valid: 4.857, train_acc: 0.479, valid_acc: 0.505
+epoch: 84, step: 45932, time: 156.9, train: 5.268, valid: 4.856, train_acc: 0.480, valid_acc: 0.503
+epoch: 85, step: 46481, time: 162.7, train: 5.348, valid: 4.841, train_acc: 0.475, valid_acc: 0.505
+epoch: 86, step: 47030, time: 157.7, train: 5.313, valid: 4.839, train_acc: 0.478, valid_acc: 0.505
+epoch: 87, step: 47579, time: 165.3, train: 5.309, valid: 4.846, train_acc: 0.478, valid_acc: 0.505
+epoch: 88, step: 48128, time: 157.8, train: 5.285, valid: 4.841, train_acc: 0.479, valid_acc: 0.505
+epoch: 89, step: 48677, time: 162.9, train: 5.305, valid: 4.809, train_acc: 0.478, valid_acc: 0.506
+epoch: 90, step: 49226, time: 157.7, train: 5.287, valid: 4.809, train_acc: 0.478, valid_acc: 0.507
+epoch: 91, step: 49775, time: 165.1, train: 5.279, valid: 4.786, train_acc: 0.479, valid_acc: 0.510
+epoch: 92, step: 50324, time: 157.7, train: 5.262, valid: 4.787, train_acc: 0.480, valid_acc: 0.508
+epoch: 93, step: 50873, time: 162.8, train: 5.260, valid: 4.803, train_acc: 0.480, valid_acc: 0.509
+epoch: 94, step: 51422, time: 157.7, train: 5.241, valid: 4.807, train_acc: 0.481, valid_acc: 0.507
+epoch: 95, step: 51971, time: 164.6, train: 5.240, valid: 4.798, train_acc: 0.481, valid_acc: 0.507
+epoch: 96, step: 52520, time: 157.6, train: 5.223, valid: 4.805, train_acc: 0.482, valid_acc: 0.506
+epoch: 97, step: 53067, time: 164.4, train: 5.300, valid: 4.756, train_acc: 0.478, valid_acc: 0.511
+epoch: 98, step: 53614, time: 157.0, train: 5.266, valid: 4.758, train_acc: 0.480, valid_acc: 0.510
+epoch: 99, step: 54161, time: 161.9, train: 5.261, valid: 4.777, train_acc: 0.480, valid_acc: 0.510
+epoch: 100, step: 54708, time: 156.8, train: 5.238, valid: 4.762, train_acc: 0.481, valid_acc: 0.510
+epoch: 101, step: 55254, time: 164.0, train: 5.243, valid: 4.742, train_acc: 0.481, valid_acc: 0.510
+epoch: 102, step: 55800, time: 156.8, train: 5.226, valid: 4.742, train_acc: 0.482, valid_acc: 0.511
+epoch: 103, step: 56346, time: 164.4, train: 5.222, valid: 4.831, train_acc: 0.482, valid_acc: 0.506
+epoch: 104, step: 56892, time: 156.8, train: 5.210, valid: 4.800, train_acc: 0.483, valid_acc: 0.509
+epoch: 105, step: 57438, time: 161.7, train: 5.202, valid: 4.765, train_acc: 0.484, valid_acc: 0.510
+epoch: 106, step: 57984, time: 156.7, train: 5.183, valid: 4.751, train_acc: 0.484, valid_acc: 0.512
+epoch: 107, step: 58530, time: 164.2, train: 5.206, valid: 4.733, train_acc: 0.483, valid_acc: 0.513
+epoch: 108, step: 59076, time: 156.7, train: 5.183, valid: 4.768, train_acc: 0.485, valid_acc: 0.509
+epoch: 109, step: 59619, time: 161.1, train: 5.237, valid: 4.792, train_acc: 0.482, valid_acc: 0.508
+epoch: 110, step: 60162, time: 156.0, train: 5.217, valid: 4.753, train_acc: 0.483, valid_acc: 0.511
+epoch: 111, step: 60705, time: 163.3, train: 5.220, valid: 4.757, train_acc: 0.483, valid_acc: 0.510
+epoch: 112, step: 61248, time: 156.0, train: 5.199, valid: 4.751, train_acc: 0.484, valid_acc: 0.511
+epoch: 113, step: 61791, time: 160.8, train: 5.211, valid: 4.755, train_acc: 0.483, valid_acc: 0.511
+epoch: 114, step: 62334, time: 155.9, train: 5.199, valid: 4.760, train_acc: 0.484, valid_acc: 0.511
+epoch: 115, step: 62877, time: 163.0, train: 5.186, valid: 4.749, train_acc: 0.485, valid_acc: 0.511
+epoch: 116, step: 63420, time: 155.9, train: 5.166, valid: 4.752, train_acc: 0.486, valid_acc: 0.512
+epoch: 117, step: 63963, time: 163.7, train: 5.177, valid: 4.771, train_acc: 0.485, valid_acc: 0.509
+epoch: 118, step: 64506, time: 155.9, train: 5.163, valid: 4.735, train_acc: 0.486, valid_acc: 0.512
+epoch: 119, step: 65049, time: 160.9, train: 5.168, valid: 4.765, train_acc: 0.485, valid_acc: 0.509
+epoch: 120, step: 65592, time: 155.8, train: 5.148, valid: 4.727, train_acc: 0.487, valid_acc: 0.512
+epoch: 121, step: 66139, time: 161.9, train: 5.185, valid: 4.749, train_acc: 0.484, valid_acc: 0.511
+epoch: 122, step: 66686, time: 156.9, train: 5.160, valid: 4.747, train_acc: 0.486, valid_acc: 0.509
+epoch: 123, step: 67233, time: 163.9, train: 5.155, valid: 4.752, train_acc: 0.487, valid_acc: 0.511
+epoch: 124, step: 67780, time: 157.0, train: 5.134, valid: 4.728, train_acc: 0.488, valid_acc: 0.512
+epoch: 125, step: 68327, time: 164.0, train: 5.140, valid: 4.759, train_acc: 0.487, valid_acc: 0.510
+epoch: 126, step: 68874, time: 156.8, train: 5.121, valid: 4.746, train_acc: 0.488, valid_acc: 0.511
+epoch: 127, step: 69421, time: 162.1, train: 5.140, valid: 4.752, train_acc: 0.487, valid_acc: 0.511
+epoch: 128, step: 69968, time: 156.9, train: 5.119, valid: 4.713, train_acc: 0.489, valid_acc: 0.513
+epoch: 129, step: 70515, time: 163.7, train: 5.132, valid: 4.738, train_acc: 0.488, valid_acc: 0.511
+epoch: 130, step: 71062, time: 156.8, train: 5.116, valid: 4.732, train_acc: 0.489, valid_acc: 0.511
+epoch: 131, step: 71609, time: 164.2, train: 5.117, valid: 4.764, train_acc: 0.489, valid_acc: 0.510
+epoch: 132, step: 72156, time: 156.7, train: 5.096, valid: 4.731, train_acc: 0.490, valid_acc: 0.513
+epoch: 133, step: 72702, time: 161.4, train: 5.143, valid: 4.705, train_acc: 0.487, valid_acc: 0.513
+epoch: 134, step: 73248, time: 156.5, train: 5.118, valid: 4.707, train_acc: 0.489, valid_acc: 0.513
+epoch: 135, step: 73795, time: 163.7, train: 5.124, valid: 4.734, train_acc: 0.489, valid_acc: 0.512
+epoch: 136, step: 74342, time: 156.7, train: 5.103, valid: 4.709, train_acc: 0.490, valid_acc: 0.513
+epoch: 137, step: 74889, time: 163.8, train: 5.113, valid: 4.735, train_acc: 0.489, valid_acc: 0.511
+epoch: 138, step: 75436, time: 156.6, train: 5.094, valid: 4.722, train_acc: 0.490, valid_acc: 0.512
+epoch: 139, step: 75982, time: 164.2, train: 5.107, valid: 4.709, train_acc: 0.490, valid_acc: 0.513
+epoch: 140, step: 76528, time: 156.7, train: 5.089, valid: 4.700, train_acc: 0.490, valid_acc: 0.514
+epoch: 141, step: 77074, time: 161.9, train: 5.088, valid: 4.702, train_acc: 0.490, valid_acc: 0.513
+epoch: 142, step: 77620, time: 156.6, train: 5.074, valid: 4.695, train_acc: 0.491, valid_acc: 0.515
+epoch: 143, step: 78166, time: 161.6, train: 5.082, valid: 4.719, train_acc: 0.491, valid_acc: 0.513
+epoch: 144, step: 78712, time: 156.6, train: 5.063, valid: 4.729, train_acc: 0.492, valid_acc: 0.512
+epoch: 145, step: 79258, time: 163.8, train: 5.138, valid: 4.701, train_acc: 0.488, valid_acc: 0.516
+epoch: 146, step: 79804, time: 156.7, train: 5.114, valid: 4.701, train_acc: 0.489, valid_acc: 0.514
+epoch: 147, step: 80351, time: 164.2, train: 5.121, valid: 4.711, train_acc: 0.488, valid_acc: 0.513
+epoch: 148, step: 80898, time: 156.8, train: 5.100, valid: 4.741, train_acc: 0.490, valid_acc: 0.511
+epoch: 149, step: 81445, time: 161.8, train: 5.105, valid: 4.718, train_acc: 0.489, valid_acc: 0.513
+epoch: 150, step: 81992, time: 156.8, train: 5.086, valid: 4.757, train_acc: 0.491, valid_acc: 0.511
+epoch: 151, step: 82539, time: 164.1, train: 5.085, valid: 4.689, train_acc: 0.490, valid_acc: 0.515
+epoch: 152, step: 83086, time: 156.9, train: 5.067, valid: 4.681, train_acc: 0.492, valid_acc: 0.515
+epoch: 153, step: 83633, time: 161.6, train: 5.073, valid: 4.704, train_acc: 0.491, valid_acc: 0.513
+epoch: 154, step: 84180, time: 156.7, train: 5.050, valid: 4.695, train_acc: 0.492, valid_acc: 0.515
+epoch: 155, step: 84727, time: 163.7, train: 5.065, valid: 4.712, train_acc: 0.492, valid_acc: 0.512
+epoch: 156, step: 85274, time: 156.8, train: 5.044, valid: 4.720, train_acc: 0.493, valid_acc: 0.512
+epoch: 157, step: 85821, time: 164.5, train: 5.088, valid: 4.683, train_acc: 0.491, valid_acc: 0.516
+epoch: 158, step: 86368, time: 157.1, train: 5.066, valid: 4.663, train_acc: 0.492, valid_acc: 0.516
+epoch: 159, step: 86915, time: 162.2, train: 5.078, valid: 4.686, train_acc: 0.491, valid_acc: 0.515
+epoch: 160, step: 87462, time: 157.2, train: 5.061, valid: 4.631, train_acc: 0.492, valid_acc: 0.518
+epoch: 161, step: 88009, time: 164.4, train: 5.065, valid: 4.694, train_acc: 0.492, valid_acc: 0.514
+epoch: 162, step: 88556, time: 157.4, train: 5.050, valid: 4.711, train_acc: 0.493, valid_acc: 0.513
+epoch: 163, step: 89103, time: 164.6, train: 5.060, valid: 4.688, train_acc: 0.492, valid_acc: 0.515
+epoch: 164, step: 89650, time: 157.3, train: 5.041, valid: 4.672, train_acc: 0.494, valid_acc: 0.514
+epoch: 165, step: 90197, time: 162.4, train: 5.045, valid: 4.682, train_acc: 0.494, valid_acc: 0.514
+epoch: 166, step: 90744, time: 157.3, train: 5.030, valid: 4.658, train_acc: 0.494, valid_acc: 0.516
+epoch: 167, step: 91291, time: 164.6, train: 5.036, valid: 4.692, train_acc: 0.494, valid_acc: 0.515
+epoch: 168, step: 91838, time: 157.4, train: 5.019, valid: 4.694, train_acc: 0.495, valid_acc: 0.515
+epoch: 169, step: 92382, time: 164.0, train: 5.068, valid: 4.661, train_acc: 0.492, valid_acc: 0.516
+epoch: 170, step: 92926, time: 156.6, train: 5.043, valid: 4.674, train_acc: 0.494, valid_acc: 0.515
+epoch: 171, step: 93471, time: 161.6, train: 5.056, valid: 4.651, train_acc: 0.492, valid_acc: 0.517
+epoch: 172, step: 94016, time: 156.5, train: 5.030, valid: 4.700, train_acc: 0.494, valid_acc: 0.514
+epoch: 173, step: 94561, time: 164.0, train: 5.053, valid: 4.694, train_acc: 0.492, valid_acc: 0.514
+epoch: 174, step: 95106, time: 156.5, train: 5.029, valid: 4.668, train_acc: 0.494, valid_acc: 0.517
+epoch: 175, step: 95650, time: 161.6, train: 5.033, valid: 4.656, train_acc: 0.494, valid_acc: 0.518
+epoch: 176, step: 96194, time: 156.5, train: 5.017, valid: 4.667, train_acc: 0.495, valid_acc: 0.516
+epoch: 177, step: 96739, time: 163.8, train: 5.031, valid: 4.630, train_acc: 0.494, valid_acc: 0.518
+epoch: 178, step: 97284, time: 156.6, train: 5.014, valid: 4.634, train_acc: 0.494, valid_acc: 0.519
+epoch: 179, step: 97829, time: 164.2, train: 5.009, valid: 4.676, train_acc: 0.495, valid_acc: 0.515
+epoch: 180, step: 98374, time: 156.7, train: 4.996, valid: 4.683, train_acc: 0.496, valid_acc: 0.515
+epoch: 181, step: 98920, time: 162.1, train: 5.041, valid: 4.659, train_acc: 0.494, valid_acc: 0.516
+epoch: 182, step: 99466, time: 156.9, train: 5.016, valid: 4.655, train_acc: 0.495, valid_acc: 0.518
+epoch: 183, step: 100012, time: 161.9, train: 5.028, valid: 4.699, train_acc: 0.494, valid_acc: 0.514
+epoch: 184, step: 100558, time: 156.8, train: 5.013, valid: 4.663, train_acc: 0.495, valid_acc: 0.517
+epoch: 185, step: 101104, time: 163.7, train: 5.009, valid: 4.656, train_acc: 0.495, valid_acc: 0.517
+epoch: 186, step: 101650, time: 156.8, train: 4.998, valid: 4.655, train_acc: 0.496, valid_acc: 0.516
+epoch: 187, step: 102196, time: 164.1, train: 5.014, valid: 4.657, train_acc: 0.496, valid_acc: 0.516
+epoch: 188, step: 102742, time: 156.7, train: 5.000, valid: 4.645, train_acc: 0.496, valid_acc: 0.517
+epoch: 189, step: 103288, time: 161.9, train: 4.991, valid: 4.635, train_acc: 0.496, valid_acc: 0.519
+epoch: 190, step: 103834, time: 156.7, train: 4.974, valid: 4.658, train_acc: 0.497, valid_acc: 0.516
+epoch: 191, step: 104380, time: 164.2, train: 4.983, valid: 4.677, train_acc: 0.497, valid_acc: 0.515
+epoch: 192, step: 104926, time: 156.7, train: 4.965, valid: 4.667, train_acc: 0.498, valid_acc: 0.516
+epoch: 193, step: 105474, time: 164.9, train: 5.024, valid: 4.636, train_acc: 0.495, valid_acc: 0.517
+epoch: 194, step: 106022, time: 157.4, train: 5.001, valid: 4.641, train_acc: 0.495, valid_acc: 0.517
+epoch: 195, step: 106570, time: 162.4, train: 5.010, valid: 4.669, train_acc: 0.495, valid_acc: 0.517
+epoch: 196, step: 107118, time: 157.4, train: 4.990, valid: 4.663, train_acc: 0.496, valid_acc: 0.515
+epoch: 197, step: 107667, time: 164.8, train: 4.999, valid: 4.646, train_acc: 0.496, valid_acc: 0.518
+epoch: 198, step: 108216, time: 157.3, train: 4.982, valid: 4.650, train_acc: 0.497, valid_acc: 0.517
+epoch: 199, step: 108764, time: 162.4, train: 4.995, valid: 4.680, train_acc: 0.496, valid_acc: 0.515
+epoch: 200, step: 109312, time: 157.3, train: 4.973, valid: 4.663, train_acc: 0.498, valid_acc: 0.516
+epoch: 201, step: 109860, time: 164.9, train: 4.972, valid: 4.635, train_acc: 0.498, valid_acc: 0.517
+epoch: 202, step: 110408, time: 157.3, train: 4.960, valid: 4.645, train_acc: 0.498, valid_acc: 0.517
